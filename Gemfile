@@ -33,6 +33,9 @@ group :production do
   gem 'pg', '1.2.3'
 end
 
+gem 'minitest', group: :test
+gem 'minitest-reporters', group: :test
+
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 # Uncomment the following line if you're running Rails
 # on a native Windows system:
