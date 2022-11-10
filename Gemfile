@@ -28,6 +28,7 @@ group :test do
   gem 'capybara',           '3.35.3'
   gem 'selenium-webdriver', '3.142.7'
   gem 'webdrivers',         '4.6.0'
+  gem 'rails-controller-testing'
 end
 
 group :production do
